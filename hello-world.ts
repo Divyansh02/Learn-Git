@@ -5,7 +5,8 @@ class Calculation{
     getFullName(){
         this.firstName="Promod",
         this.lastName="Pandey";
-        return this.firstName + " " + this.lastName;
+        this.lastName="Pandey";
+        return this.firstName + " " + this.lastName+ this.lastName;
     }
 
 //     addMarks( a:number ,b:number ) :number{

@@ -4,7 +4,7 @@ var Calculation = /** @class */ (function () {
     Calculation.prototype.getFullName = function () {
         this.firstName = "Promod",
             this.lastName = "Pandey";
-        return this.firstName + " " + this.lastName+ this.lastName;
+        return this.firstName + " " + this.lastName+ this.lastName+this.lastName;
     };
     return Calculation;
 }());
